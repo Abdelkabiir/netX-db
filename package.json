@@ -1,0 +1,26 @@
+{
+  "name": "netx-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdelkabiir/netX-db.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdelkabiir/netX-db/issues"
+  },
+  "homepage": "https://github.com/Abdelkabiir/netX-db#readme",
+  "dependencies": {
+    "mongodb": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.3.14"
+  }
+}
